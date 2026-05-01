@@ -1,0 +1,13 @@
+[Thu Apr 23 2026 01:05:27.368] evolution-postgres: 
+[Thu Apr 23 2026 01:05:27.368] evolution-postgres: PostgreSQL Database directory appears to contain a database; Skipping initialization
+[Thu Apr 23 2026 01:05:27.368] evolution-postgres: 
+[Thu Apr 23 2026 01:05:27.485] evolution-postgres: 2026-04-23 04:05:27.485 UTC [1] LOG:  starting PostgreSQL 15.17 (Debian 15.17-1.pgdg13+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 14.2.0-19) 14.2.0, 64-bit
+[Thu Apr 23 2026 01:05:27.486] evolution-postgres: 2026-04-23 04:05:27.486 UTC [1] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+[Thu Apr 23 2026 01:05:27.486] evolution-postgres: 2026-04-23 04:05:27.486 UTC [1] LOG:  listening on IPv6 address "::", port 5432
+[Thu Apr 23 2026 01:05:27.490] evolution-postgres: 2026-04-23 04:05:27.489 UTC [1] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+[Thu Apr 23 2026 01:05:27.503] evolution-postgres: 2026-04-23 04:05:27.503 UTC [27] LOG:  database system was shut down at 2026-04-23 04:05:26 UTC
+[Thu Apr 23 2026 01:05:27.534] evolution-postgres: 2026-04-23 04:05:27.533 UTC [1] LOG:  database system is ready to accept connections
+[Thu Apr 23 2026 01:05:29.301] evolution-postgres: 2026-04-23 04:05:29.299 UTC [31] LOG:  could not receive data from client: Connection reset by peer
+[Thu Apr 23 2026 01:05:29.354] evolution-postgres: 2026-04-23 04:05:29.354 UTC [32] LOG:  could not receive data from client: Connection reset by peer
+[Thu Apr 23 2026 01:10:27.591] evolution-postgres: 2026-04-23 04:10:27.590 UTC [25] LOG:  checkpoint starting: time
+[Thu Apr 23 2026 01:10:27.601] evolution-postgres: 2026-04-23 04:10:27.601 UTC [25] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.003 s, sync=0.001 s, total=0.011 s; sync files=2, longest=0.001 s, average=0.001 s; distance=0 kB, estimate=0 kB
