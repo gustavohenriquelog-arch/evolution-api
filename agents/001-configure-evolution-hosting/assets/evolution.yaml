@@ -21,7 +21,7 @@ services:
     depends_on:
       - postgres
     environment:
-      - AUTHENTICATION_API_KEY=9Kf@82Lm!xPq7Z#vA1BR
+      - AUTHENTICATION_API_KEY=<API_KEY>
       - AUTHENTICATION_ENABLED=true
       - AUTHENTICATION_TYPE=apikey
       - AUTHENTICATION_EXPOSE_IN_API=true
@@ -29,7 +29,7 @@ services:
       - DATABASE_CONNECTION_URI=postgresql://postgres:postgres@postgres:5432/evolution
       - CONFIG_SESSION_PHONE_CLIENT=baileys
       - CONFIG_SESSION_PHONE_NAME=Chrome
-      - CONFIG_SESSION_PHONE_VERSION=2.2412.54
+      - CONFIG_SESSION_PHONE_VERSION=<WHATSUP_API_VERSION>
       - CACHE_REDIS_ENABLED=false
     volumes:
       - evolution_evolution_data:/evolution

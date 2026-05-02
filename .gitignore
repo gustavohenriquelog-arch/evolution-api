@@ -1,0 +1,36 @@
+# Git Ignore - Evolution API
+
+# 🚫 Nunca commitar
+*.env
+.env.local
+.env.*.local
+
+# Secrets e credenciais
+**/secret*
+**/password*
+**/token*
+**/.credentials
+
+# Dependências
+node_modules/
+venv/
+.venv/
+env/
+ENV/
+.egg-info/
+*.egg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# Deprecated
+prompts/  # Use agents/ instead
