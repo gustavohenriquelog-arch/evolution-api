@@ -75,9 +75,6 @@ O agente executará automaticamente:
 
 ### Para Diferentes Públicos
 
-**👤 Novo no Projeto?**
-- Leia: [APRESENTACAO_RAPIDA.md](./output/APRESENTACAO_RAPIDA.md) (2 min)
-
 **👨‍💻 Quer Criar Agente?**
 - Siga: [docs/GETTING_STARTED.md](./docs/GETTING_STARTED.md) (15 min)
 - Use: [.agents/templates/agent-template.md](./.agents/templates/agent-template.md)
