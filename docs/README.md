@@ -98,8 +98,8 @@ docs/
 - [GUIA_IMPLEMENTACAO.md](../output/GUIA_IMPLEMENTACAO.md) - Como implementar as mudanças
 
 ### No `.agents/`
-- [AGENTS.md](../.agents/AGENTS.md) - Catálogo de todos os agentes
-- [templates/agent-template.md](../.agents/templates/agent-template.md) - Template reutilizável
+- [AGENTS.md](../agents/templates/AGENTS.md) - Catálogo de todos os agentes
+- [templates/agent-template.md](../agents/templates/agent-template.md) - Template reutilizável
 
 ### Na raiz do projeto
 - [COPILOT.md](../COPILOT.md) - Persona e guidelines globais
@@ -165,7 +165,7 @@ Todos os documentos seguem:
 | Como criar novo agente? | [GETTING_STARTED.md](./GETTING_STARTED.md) |
 | Qual é a estrutura? | [AGENT_ANATOMY.md](./AGENT_ANATOMY.md) |
 | Padrões de qualidade? | [BEST_PRACTICES.md](./BEST_PRACTICES.md) |
-| Qual agente usar? | [../.agents/AGENTS.md](../.agents/AGENTS.md) |
+| Qual agente usar? | [../.agents/AGENTS.md](../agents/templates/AGENTS.md) |
 | Implementar mudanças? | [../output/GUIA_IMPLEMENTACAO.md](../output/GUIA_IMPLEMENTACAO.md) |
 
 ---

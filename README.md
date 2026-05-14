@@ -64,7 +64,7 @@ O agente executará automaticamente:
 ### Criar Novo Agente
 
 1. Leia: [docs/GETTING_STARTED.md](./docs/GETTING_STARTED.md)
-2. Use: [.agents/templates/agent-template.md](./.agents/templates/agent-template.md)
+2. Use: [.agents/templates/agent-template.md](agents/templates/agent-template.md)
 3. Siga: [output/GUIA_IMPLEMENTACAO.md](./output/GUIA_IMPLEMENTACAO.md)
 
 **Tempo estimado**: ~15-20 minutos
@@ -77,7 +77,7 @@ O agente executará automaticamente:
 
 **👨‍💻 Quer Criar Agente?**
 - Siga: [docs/GETTING_STARTED.md](./docs/GETTING_STARTED.md) (15 min)
-- Use: [.agents/templates/agent-template.md](./.agents/templates/agent-template.md)
+- Use: [.agents/templates/agent-template.md](agents/templates/agent-template.md)
 
 **📚 Quer Entender Estrutura?**
 - Leia: [docs/AGENT_ANATOMY.md](./docs/AGENT_ANATOMY.md) (40 min)
@@ -86,7 +86,7 @@ O agente executará automaticamente:
 - Consulte: [docs/BEST_PRACTICES.md](./docs/BEST_PRACTICES.md) (30 min)
 
 **🔍 Qual Agente Usar?**
-- Consulte: [.agents/AGENTS.md](./.agents/AGENTS.md) (catálogo)
+- Consulte: [.agents/AGENTS.md](agents/templates/AGENTS.md) (catálogo)
 
 ---
 
@@ -95,7 +95,7 @@ O agente executará automaticamente:
 ### ✅ 001 - Configure Evolution Hosting
 **Status**: Ativo  
 **Descrição**: Diagnostica e resolve problemas de QR code na Evolution API  
-**Arquivo**: [agents/001-configure-evolution-hosting/](./agents/001-configure-evolution-hosting/)  
+**Arquivo**: [agents/001-configure-evolution-hosting/](agents/taks/001-configure-evolution-hosting/)  
 **Versão**: 1.0.0
 
 **Entrada** (assets):
@@ -109,7 +109,7 @@ O agente executará automaticamente:
 ### 🔄 002 - Discover WhatsApp Version
 **Status**: WIP (Em Desenvolvimento)  
 **Descrição**: Descobre versão atual do WhatsApp API e compatibilidade  
-**Arquivo**: [agents/002-discover-whatsapp-version/](./agents/002-discover-whatsapp-version/)  
+**Arquivo**: [agents/002-discover-whatsapp-version/](agents/taks/002-discover-whatsapp-version/)  
 **Versão**: 1.0.0
 
 **Status**: Template criado, implementação em progresso
@@ -199,7 +199,7 @@ Checklist completo em: [docs/BEST_PRACTICES.md](./docs/BEST_PRACTICES.md#6-segur
 | Pergunta | Resposta |
 |----------|----------|
 | Como criar novo agente? | [docs/GETTING_STARTED.md](./docs/GETTING_STARTED.md) |
-| Qual agente usar? | [.agents/AGENTS.md](./.agents/AGENTS.md) |
+| Qual agente usar? | [.agents/AGENTS.md](agents/templates/AGENTS.md) |
 | Estrutura detalhada? | [docs/AGENT_ANATOMY.md](./docs/AGENT_ANATOMY.md) |
 | Padrões de qualidade? | [docs/BEST_PRACTICES.md](./docs/BEST_PRACTICES.md) |
 | Referência rápida? | [output/REFERENCIA_RAPIDA.md](./output/REFERENCIA_RAPIDA.md) |
@@ -210,7 +210,7 @@ Checklist completo em: [docs/BEST_PRACTICES.md](./docs/BEST_PRACTICES.md#6-segur
 
 - **Padrão Vibe Code**: [COPILOT.md](./COPILOT.md)
 - **Documentação Central**: [docs/README.md](./docs/README.md)
-- **Catálogo de Agentes**: [.agents/AGENTS.md](./.agents/AGENTS.md)
+- **Catálogo de Agentes**: [.agents/AGENTS.md](agents/templates/AGENTS.md)
 
 ---
 
