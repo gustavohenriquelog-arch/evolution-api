@@ -3,18 +3,16 @@ services:
     image: evoapicloud/evolution-go:latest
     container_name: evolution-go
     restart: unless-stopped
-    depends_on:
-      - postgres
     ports:
       - "8082:8080"
     env_file:
-      - .env.example
+      - .env
     environment:
       - DB_TYPE=postgres
       - DB_HOST=evolution-postgres
       - DB_PORT=5432
-      - DB_USER=postgres # Add your username
-      - DB_PASSWORD=postgres # Add your password
+      - DB_USER=postgres
+      - DB_PASSWORD=postgres
       - DB_NAME=evolution_go
       - SERVER_PORT=8080
     networks:

@@ -6,11 +6,17 @@ services:
     container_name: evolution-postgres
     restart: always
     environment:
-      POSTGRES_DB: evolution
-      POSTGRES_USER: ${POSTGRES_USER}
-      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_DB: evolution_go
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
     volumes:
       - evolution_postgres_data:/var/lib/postgresql/data
+    networks:
+      - evolution_default
 
 volumes:
   evolution_postgres_data:
+
+networks:
+  evolution_default:
+    external: true
