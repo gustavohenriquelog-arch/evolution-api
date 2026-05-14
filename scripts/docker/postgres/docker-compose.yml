@@ -7,8 +7,8 @@ services:
     restart: always
     environment:
       POSTGRES_DB: evolution
-      POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: postgres
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
     volumes:
       - evolution_postgres_data:/var/lib/postgresql/data
 
